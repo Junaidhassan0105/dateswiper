@@ -1,0 +1,34 @@
+{
+  "name": "date-swiper",
+  "version": "1.0.0",
+  "description": "swape your match",
+  "author": "Crew New",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.1",
+    "@nuxtjs/axios": "^5.9.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "laravel-echo": "^1.5.4",
+    "nuxt": "^2.11.0",
+    "nuxt-i18n": "^6.4.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "pusher-js": "^5.0.3",
+    "vue-google-oauth2": "^1.4.0",
+    "vue-lazy-hydration": "^1.0.0-beta.9",
+    "vue2-interact": "0.0.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.9.1",
+    "node-sass": "^4.13.0",
+    "nuxt-purgecss": "^0.2.1",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.2.0"
+  }
+}

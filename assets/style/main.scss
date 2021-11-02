@@ -1,0 +1,364 @@
+
+@font-face {
+    font-family: AvenirNext;
+    font-display: swap;
+    src: url('/fonts/ave_next_ssv/AvenirNextLTPro-Regular.otf')
+  }
+
+$theme-color: #d11c39;
+
+.object-fit {
+    object-fit: cover;
+}
+
+.dens-mobile {
+    padding-top: 20px;
+}
+
+.text-red {
+    color: #d11c39 !important;
+}
+
+.no-touch-action {
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.background-red {
+    background-color: $theme-color;
+}
+
+.no-text-transform {
+    text-transform: none !important;
+}
+
+.theme-button-big {
+    width: 100% !important;
+    height: 53px !important;
+    background-color: $theme-color !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    letter-spacing: 0px !important;
+    line-height: 74px;
+    font-family: "AvenirNext", sans-serif;
+}
+
+h1 {
+    font-size: 63px;
+    line-height: 60px;
+    color: #fefefe;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #242424;
+    font-family: "AvenirNext", sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 56px;
+    color: #242424;
+    font-family: "AvenirNext", sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "AvenirNext", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 56px;
+    color: #242424;
+    font-family: "AvenirNext", sans-serif;
+}
+
+.shady {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #bcbfc4;
+    font-family: "AvenirNext", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+.font-avenir-next {
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.box-border {
+    border: 1px solid #cccccc;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.absolute {
+    position: absolute !important;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.self-center {
+    align-self: center !important;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.grow-0 {
+    flex-grow: 0 !important;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.normal {
+    font-weight: normal !important;
+}
+
+.break-word {
+    word-break: break-word;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+// .order1
+@for $i from 1 through 5 {
+    .order#{$i} {
+      order: $i !important
+    }
+}
+
+// .w5, .w10...
+@for $i from 1 through 100 {
+    .w#{$i * 1} {
+      width: $i * 1%
+    }
+}
+
+// .p5, .p10...
+@for $i from 0 through 100 {
+    .p#{$i} {
+      padding: $i * 1px !important
+    }
+}
+
+// .p5-top, .p10-top...
+@for $i from 0 through 100 {
+    .p#{$i}-top {
+      padding-top: $i * 1px !important
+    }
+}
+
+// .p5-topP, .p10-topP...
+@for $i from 1 through 100 {
+    .p#{$i}-topP {
+      padding-top: $i * 1% !important
+    }
+}
+
+// .p5-bot, .p10-bot...
+@for $i from 0 through 100 {
+    .p#{$i}-bot {
+      padding-bottom: $i * 1px !important
+    }
+}
+
+// .p5-left, .p10-left...
+@for $i from 1 through 150 {
+    .p#{$i}-left {
+      padding-left: $i * 1px !important
+    }
+}
+
+// .p5-right, .p10-right...
+@for $i from 1 through 100 {
+    .p#{$i}-right {
+      padding-right: $i * 1px
+    }
+}
+
+// .p5-side, .p10-side...
+@for $i from 1 through 100 {
+    .p#{$i}-side {
+      padding-left: $i * 1px !important;
+      padding-right: $i * 1px !important;
+    }
+}
+
+// margin .m10-top
+@for $i from 1 through 100 {
+    .m#{$i}-top {
+      margin-top: $i * 1px
+    }
+}
+
+@for $i from 1 through 100 {
+    .m#{$i}-side {
+      margin-left: $i * 1px !important;
+      margin-right: $i * 1px !important;
+    }
+}
+
+@for $i from 1 through 100 {
+    .m#{$i}-right {
+      margin-right: $i * 1px !important;
+    }
+}
+
+@for $i from 0 through 100 {
+    .m#{$i}-bot {
+      margin-bottom: $i * 1px !important
+    }
+}
+
+@for $i from 0 through 100 {
+    .m#{$i} {
+      margin: $i * 1px !important
+    }
+}
+
+@for $i from 1 through 100 {
+    .wh#{$i} {
+      width: $i * 1px;
+      height: $i * 1px;
+    }
+}
+
+@for $i from 1 through 100 {
+    .fs-#{$i} {
+      font-size: $i * 0.1rem
+    }
+}
+
+@for $i from 1 through 100 {
+    .h#{$i} {
+      height: $i * 1vh !important
+    }
+}
+

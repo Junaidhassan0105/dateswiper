@@ -1,0 +1,48 @@
+// extra large
+@media (min-width: 1904px) {
+    .container {
+        max-width: 1264px !important;
+    }
+
+    .container--fluid {
+        max-width: 100% !important;
+    }
+}
+
+// small
+@media (max-width: 600px) {
+    h1 {
+        font-size: 55px;
+    }
+    .logo {
+        max-width: 160px !important;
+    }
+
+    .sm-nopadding-side {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .wraper-container {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .text-center-mobile {
+        text-align: center;
+    }
+
+    .v-app-bar {
+        height: 90px !important;
+    }
+    .v-toolbar {
+        height: 90px !important;
+    }
+    .dens-mobile {
+        padding-top: 20px;
+        height: inherit !important;
+    }
+    .v-content {
+        padding-top: 90px !important;
+    }
+}
